@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional custom styles */
+body {
+  @apply bg-gray-900 text-white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Scrollbar styling (optional for better UI) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ef4444; /* Tailwind Red-500 */
+  border-radius: 10px;
+}
